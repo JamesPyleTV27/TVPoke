@@ -22,7 +22,6 @@ class Electric(Pokemon):
 
 class Normal(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
-        super().__init__(name, hp, "NORMAL", "FIGHTING", moves, imgPath)
 
 class Bug(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
@@ -30,9 +29,30 @@ class Bug(Pokemon):
         
 class Psychic(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
+<<<<<<< HEAD
+=======
+        super().__init__(name, hp, "PSYCHIC", "DARK", moves, imgPath)
+
+class Bug(Pokemon):
+    def __init__(self, name, hp, moves, imgPath):
+        super().__init__(name, hp, "BUG", "GRASS", moves, imgPath)
+        
+class Psychic(Pokemon):
+    def __init__(self, name, hp, moves, imgPath):
+>>>>>>> c7829fb9707bf533ad329928502c745aa33217aa
         super().__init__(name, hp, "PSYCHIC", "BUG", moves, imgPath)
 
 class Flying(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "FLYING", "ELECTRIC", moves, imgPath)
 
+<<<<<<< HEAD
+=======
+class Ghost(Pokemon):
+    def __init__(self, name, hp, moves, imgPath):
+        super().__init__(name, hp, "GHOST", "DARK", moves, imgPath)
+
+class Dark(Pokemon):
+    def __init__(self, name, hp, moves, imgPath):
+        super().__init__(name, hp, "DARK", "GHOST", moves, imgPath)
+>>>>>>> c7829fb9707bf533ad329928502c745aa33217aa
